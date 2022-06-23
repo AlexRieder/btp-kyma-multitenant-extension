@@ -62,6 +62,7 @@ spec:
   parameters:
     # the xsappname refers to the one defined in xsuaa service
     xsappname: easyfranchise
+    appname: easyfranchise-<provider-subdomain>
     displayName: Easy Franchise (<provider-subdomain>)
     description: Easy Franchise Basis Mission, a multitenant extension application based on SAP BTP,Kyma runtime
     category: "Demo applications"
