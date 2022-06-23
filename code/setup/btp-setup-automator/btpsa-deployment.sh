@@ -51,6 +51,7 @@ log "###########################################################################
 echo ""
 
 log "Step 2.1 - Create Namepaces"
+kubectl get namespaces
 kubectl create namespace integration || true
 kubectl create namespace backend || true
 kubectl create namespace mock || true
