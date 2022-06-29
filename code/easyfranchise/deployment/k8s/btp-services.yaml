@@ -72,7 +72,7 @@ spec:
       getDependencies: https://subscription.<cluster-domain>/callback/v1.0/dependencies
     appPlans:
       - name: default
-      - description: Easy Franchise default plan
+        description: Easy Franchise default plan
 ---
 apiVersion: services.cloud.sap.com/v1
 kind: ServiceBinding
